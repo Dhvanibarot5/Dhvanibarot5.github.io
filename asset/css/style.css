@@ -1,0 +1,174 @@
+:root{
+    --fonts: Poppins;
+}
+
+body{
+    font-family: var(--fonts) !important;
+}
+.bgcard{
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.containerColor{
+    background-color: #494b50;
+}
+
+/* header */
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: inherit;
+}
+
+/* hero */
+@media (min-width: 992px) {
+    .heroImg{
+        width: 250px;
+    }
+        .Aform {
+            position: absolute;
+            top: 15%;
+            left: 45%;
+            width: 300px !important;
+        }
+}
+@media (min-width: 1200px) {
+    
+}
+
+.card1{
+    background-image: url(../images/1_1.jpg);
+    border-radius: 5%;
+}
+.card2{
+    background-image: url(../images/2.jpg);
+    border-radius: 5%;
+}
+.card3{
+    background-image: url(../images/3.jpg);
+    border-radius: 5%;
+}
+.card4{
+    background-image: url(../images/6.jpg);
+    border-radius: 5%;
+}
+.card5{
+    background-image: url(../images/7.jpg);
+    border-radius: 5%;
+}
+.card6{
+    background-image: url(../images/8.jpg);
+    border-radius: 5%;
+}
+
+.cardIcon{
+    background-color: #153883;
+    /* padding: 20px; */
+    border-radius: 50%;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+}
+.Timg{
+    border-radius: 50%;
+    width: 70px;
+}
+.tesSec{
+    background-color: gray;
+    padding: 30px;
+    margin: 40px 0px;
+    border-radius: 20px;
+}
+.Testimonial{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.blogImg{
+    height: 200px;
+}
+.Aimg{
+    position: relative;
+}
+ .Aform{
+    /* position: absolute;
+    top: 15%;
+    left: 45%; */
+    width: 100%;
+} 
+.Aform_inner{
+    border-bottom: 1px dashed rgb(173, 170, 170);
+}
+.rHeader:hover{
+    color: #DC3545 !important;
+    transition: all 0.3s linear;
+}
+.Mlist a{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+.Mlist span{
+    position: absolute;
+    transform: translate(150px);
+    transition: all 0.3s linear;
+}
+.Mlist i{
+    position: absolute;
+    top: 38%;
+    left:38px;
+    transition: all 0.3s linear;
+}
+.Mlist a:hover span{
+        transform: translate(20px);
+}
+.Mlist a:hover{
+    width: 200px;
+}
+
+/* blog */
+.blogImg{
+    transition: all 0.3s linear;
+}
+.blogImg:hover{
+    transform: scale(1.2);
+}
+.card-text{
+    transition: all 0.3s linear;
+}
+.card-text:hover{
+    color: #DC3545;
+}
+
+
+/* portfolio */
+.bgcard::after{
+    content: "";
+    display: none;
+    background-color: #DC3545;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s linear;
+}
+.bgcard:hover.bgcard::after {
+    display: block !important;
+}
+.hoverIcon{
+    top: 150%;
+    transition: all 0.5s linear;
+}
+.bgcard:hover.bgcard .hoverIcon{
+    top: 50%;
+}
+
+.display_block{
+    display: block !important;
+}
