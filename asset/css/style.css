@@ -39,24 +39,31 @@ body{
     
 }
 
+.cardImg{
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+
 .card1{
-    background-image: url(../images/1_1.jpg);
+    background-image: url(../images/molla.png);
     border-radius: 5%;
 }
 .card2{
-    background-image: url(../images/2.jpg);
+    background-image: url(../images/travel.png);
     border-radius: 5%;
+   
 }
 .card3{
-    background-image: url(../images/3.jpg);
+    background-image: url(../images/pizzashop.png);
     border-radius: 5%;
+    
 }
 .card4{
-    background-image: url(../images/6.jpg);
+    background-image: url(../images/admin.png);
     border-radius: 5%;
 }
 .card5{
-    background-image: url(../images/7.jpg);
+    background-image: url(../images/coffeeshop.png);
     border-radius: 5%;
 }
 .card6{
